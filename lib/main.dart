@@ -18,7 +18,7 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'Calculadora'),
+      home: const HomePage(title: 'Calculadora do Well :)'),
     );
   }
 }
@@ -58,9 +58,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Expanded(
                     child: Container(
-                        // alignment: Alignment.center,
-                        // color: Colors.red,
-                        // child: const Text('Primeira Coluna'),
+
                         ),
                   ),
                   Expanded(
@@ -87,9 +85,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Expanded(
                     child: Container(
-                        // alignment: Alignment.center,
-                        // color: Colors.red,
-                        // child: const Text('Terceira Coluna'),
                         ),
                   ),
                 ],
@@ -100,7 +95,7 @@ class _HomePageState extends State<HomePage> {
               child: Container(
                 //alignment: Alignment.center,
                 //color: Colors.blue,
-                //child: const Text('Layout Inferior'),
+                child: const Text('Bons Estudos'),
               ),
             ),
           ],
